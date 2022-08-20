@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">MindItUp</string>
+
+    <!--    Assessment-->
+    <string name="startAssessment">Start Assessment</string>
+    <string name="meetTherapist">Meet Therapist</string>
+    <string name="skip">Skip</string>
+    <!-- test   -->
+    <string name="ques_ans">questions answered</string>
+    <string name="ques">Questions</string>
+
+
+    <string name="result">Result</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
