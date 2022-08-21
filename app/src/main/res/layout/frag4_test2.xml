@@ -94,18 +94,7 @@
                 android:textAllCaps="false"
                 android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/result"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="135dp"
-                android:layout_marginBottom="35sp"
-                android:layout_alignParentBottom="true"
-                android:text="@string/test2"
-                android:textColor="#1f78b0"
-                android:fontFamily="sans-serif-medium"
-                android:textSize="20sp" />
+
 
 
         </LinearLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MindItUp">
         <activity
+            android:name=".Act4_BasePage"
+            android:exported="false" />
+        <activity
             android:name=".Act3_Assessment"
             android:exported="false" />
         <activity

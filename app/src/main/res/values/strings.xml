@@ -8,10 +8,9 @@
     <!-- test   -->
     <string name="ques_ans">questions answered</string>
     <string name="ques">Questions</string>
-
-
+    <!--    result page-->
     <string name="result">Result</string>
-    <string name="test2">Test 2</string>
+    <string name="tohome">Home</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -1,5 +1,6 @@
 package com.techtastic.minditup;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 /**
@@ -19,6 +21,9 @@ public class Frag5_score2 extends Fragment {
     }
 
     private TextView result1, result2;
+    private Button b1;
+    Act3_Assessment assessment;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,6 +33,18 @@ public class Frag5_score2 extends Fragment {
 
         result1 = v.findViewById(R.id.result1);
         result2 = v.findViewById(R.id.result2);
+        b1 = v.findViewById(R.id.tohome2);
+        assessment = (Act3_Assessment)getActivity();
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(),Act4_BasePage.class);
+                startActivity(i);
+
+            }
+        });
+
 
         Bundle bundle = new Bundle();
         bundle=getArguments();
