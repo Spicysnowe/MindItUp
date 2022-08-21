@@ -3,11 +3,15 @@ package com.techtastic.minditup;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,13 +25,16 @@ public class Frag3_score extends Fragment {
 
     private TextView result;
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.frag3_score, container, false);
+
         result = v.findViewById(R.id.result);
         whichProblem();
+
         return v;
 
     }
@@ -53,17 +60,74 @@ public class Frag3_score extends Fragment {
 
 //        scenario 3
 //        no equality
+        else if(ptsd>adhd && ptsd>anx && ptsd>dep){
+
+            String  A ="ptsd";
+
+            Frag4_Test2 tst= new Frag4_Test2();
+//            Frag5_score2 lmn = new Frag5_score2();
+            bundle.putString("abcd",A);
+            tst.setArguments(bundle);
+//            lmn.setArguments(bundle);
+            FragmentTransaction ft= getFragmentManager().beginTransaction();
+//            FragmentTransaction.addToBackStack(null);
+            ft.replace(R.id.assessment_frameLayout,tst);
+            ft.commit();
+//            Todo:
+
+
+//            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have ptsd");
+        }
         else if(anx>adhd && anx>ptsd && anx>dep){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + " You have anx");
+
+            String  A ="anxiety";
+
+            Frag4_Test2 tst= new Frag4_Test2();
+//            Frag5_score2 lmn = new Frag5_score2();
+            bundle.putString("abcd",A);
+            tst.setArguments(bundle);
+//            lmn.setArguments(bundle);
+            FragmentTransaction ft= getFragmentManager().beginTransaction();
+//            FragmentTransaction.addToBackStack(null);
+            ft.replace(R.id.assessment_frameLayout,tst);
+            ft.commit();
+//            Todo:
+
+//            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + " You have anx");
         }
         else if(dep>adhd && dep>anx && dep>ptsd){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have dep");
-        }
-        else if(ptsd>adhd && ptsd>anx && ptsd>dep){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have ptsd");
+
+            String  A ="depression";
+
+            Frag4_Test2 tst= new Frag4_Test2();
+//            Frag5_score2 lmn = new Frag5_score2();
+            bundle.putString("abcd",A);
+            tst.setArguments(bundle);
+//            lmn.setArguments(bundle);
+            FragmentTransaction ft= getFragmentManager().beginTransaction();
+//            FragmentTransaction.addToBackStack(null);
+            ft.replace(R.id.assessment_frameLayout,tst);
+            ft.commit();
+//            Todo:
+
+//            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have dep");
         }
         else if(adhd>ptsd && adhd>anx && adhd>dep){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have adhd");
+
+            String  A ="adhd";
+
+            Frag4_Test2 tst= new Frag4_Test2();
+//            Frag5_score2 lmn = new Frag5_score2();
+            bundle.putString("abcd",A);
+            tst.setArguments(bundle);
+//            lmn.setArguments(bundle);
+            FragmentTransaction ft= getFragmentManager().beginTransaction();
+//            FragmentTransaction.addToBackStack(null);
+            ft.replace(R.id.assessment_frameLayout,tst);
+            ft.commit();
+//            Todo:
+
+//            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "you have adhd");
         }
 
 
@@ -100,9 +164,13 @@ public class Frag3_score extends Fragment {
         }
         else if(anx==dep){
             result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "Call anx dep set");
+
         }
+        //            todo
+//            design the score1 xml file + have the contents
+//            set the changable contents
 
 
     }
 
-}
+    }
