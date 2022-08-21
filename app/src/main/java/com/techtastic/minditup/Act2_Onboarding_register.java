@@ -14,6 +14,8 @@ public class Act2_Onboarding_register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act2_onboarding_register);
         Button register = findViewById(R.id.register);
+        getSupportActionBar().hide();
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

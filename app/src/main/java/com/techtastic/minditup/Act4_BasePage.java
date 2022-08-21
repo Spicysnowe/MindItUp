@@ -1,12 +1,14 @@
 package com.techtastic.minditup;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.techtastic.minditup.databinding.Act4BasePageBinding;
 
 public class Act4_BasePage extends AppCompatActivity {
@@ -19,6 +21,8 @@ public class Act4_BasePage extends AppCompatActivity {
         binding = Act4BasePageBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new Frag6_home());
+        getSupportActionBar().hide();
+
 
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {

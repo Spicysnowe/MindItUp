@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Act4_BasePage">
 
+<!--    android:fitsSystemWindows="true"-->
 
     <FrameLayout
         android:id="@+id/baseFrameLayout"
@@ -25,5 +26,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
