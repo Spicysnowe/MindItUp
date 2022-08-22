@@ -38,6 +38,9 @@ public class Act4_BasePage extends AppCompatActivity {
                 case R.id.profile:
                     replaceFragment(new Frag8_Profile());
                     break;
+                case R.id.moodtracker:
+                    replaceFragment(new Frag9_MoodTracker());
+                    break;
             }
 
             return true;

@@ -20,6 +20,17 @@
 <!--        ?attr/colorPrimaryVariant-->
     </style>
 
+    <style name="DarkAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorAccent">@color/colorAlertDialogButton</item>
+        <item name="android:textColorPrimary">@color/colorAlertDialogText</item>
+        <item name="android:background">@color/colorAlertDialogBackground</item>
+    </style>
+
+    <style name="FloatingActionBtnTheme">
+        <item name="android:backgroundTint">@color/colorBottomNavActive</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
 
 
 

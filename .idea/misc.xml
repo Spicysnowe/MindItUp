@@ -10,6 +10,7 @@
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_start_assessment.xml" value="0.22239583333333332" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag10_diary_writting.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag1_get_started.xml" value="0.2" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag1_start_assessment.xml" value="0.1" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag2__assessment.xml" value="0.1" />
@@ -22,6 +23,8 @@
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag6_home.xml" value="0.264" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag7_community.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag8_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag9_mood_tracker.xml" value="0.23645833333333333" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/list_item.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/onboarding_register.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23645833333333333" />
       </map>
