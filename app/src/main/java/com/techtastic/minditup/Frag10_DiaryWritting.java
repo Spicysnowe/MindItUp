@@ -68,8 +68,8 @@ public class Frag10_DiaryWritting extends Fragment {
             @Override
             public void onClick(View v) {
                 // TODO: Add code for creating a journal entry
-                Intent intent = new Intent(view.getContext(), NotepadEntry.class);
-                startActivityForResult(intent, 0x0);
+//                Intent intent = new Intent(view.getContext(), NotepadEntry.class);
+//                startActivityForResult(intent, 0x0);
             }
         });
 
@@ -89,10 +89,10 @@ public class Frag10_DiaryWritting extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Journal entry = journalDao.getAll().get(position);
-                Intent intent = new Intent(view.getContext(), NotepadEntry.class);
-                intent.putExtra("Title", entry.title);
-                intent.putExtra("Body", entry.body);
-                startActivityForResult(intent, 0x0);
+//                Intent intent = new Intent(view.getContext(), NotepadEntry.class);
+//                intent.putExtra("Title", entry.title);
+//                intent.putExtra("Body", entry.body);
+//                startActivityForResult(intent, 0x0);
             }
         });
 

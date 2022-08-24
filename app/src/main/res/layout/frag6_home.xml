@@ -4,420 +4,470 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag6_home">
+    tools:context=".Frag6_home"
+    >
 
 
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#89acb5">
+    android:background="#123456"
+    >
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
+        <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="40dp"
             android:fontFamily="sans-serif-medium"
             android:text="Hello, Friend"
             android:textColor="#8C000000"
             android:textSize="18sp" />
 
-    <TextView
+        <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Soo How Is Your Mood ??"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="74dp"
+            android:text="Soo How Is Your Mood ??"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:layout_marginTop="74dp"/>
+            android:textSize="20sp" />
 
-    <HorizontalScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="124dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/veryhappy"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_cards"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_anchor_24" />
+
+                <ImageButton
+                    android:id="@+id/happy"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_rnd_corner_colored"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_anchor_24" />
+
+                <ImageButton
+                    android:id="@+id/normal"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_cards"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_anchor_24" />
+
+                <ImageButton
+                    android:id="@+id/sad"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_cards"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_anchor_24" />
+
+                <ImageButton
+                    android:id="@+id/verysad"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_cards"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_anchor_24" />
+                <!--image + backgroubd of btn + uske baaad unke size-->
+                <!--                    otherwise u can use weight here todo-->
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="124dp"
-            android:orientation="horizontal">
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="194dp"
+            android:text="Recommended Activities"
+            android:textColor="#8C000000"
+            android:textSize="20sp" />
 
-            <ImageButton
-                android:id="@+id/veryhappy"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:padding="10dp"
-                android:src="@drawable/ic_baseline_anchor_24" />
-
-            <ImageButton
-                android:id="@+id/happy"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:padding="10dp"
-                android:src="@drawable/ic_baseline_anchor_24" />
-
-            <ImageButton
-                android:id="@+id/normal"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:padding="10dp"
-                android:src="@drawable/ic_baseline_anchor_24" />
-
-            <ImageButton
-                android:id="@+id/sad"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:padding="10dp"
-                android:src="@drawable/ic_baseline_anchor_24" />
-
-            <ImageButton
-                android:id="@+id/verysad"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:padding="10dp"
-                android:src="@drawable/ic_baseline_anchor_24" />
-            <!--image + backgroubd of btn + uske baaad unke size-->
-            <!--                    otherwise u can use weight here todo-->
-
-        </LinearLayout>
-
-
-    </HorizontalScrollView>
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="194dp"
-        android:text="Recommended Activities"
-        android:textColor="#8C000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="194dp"
-        android:text="View all"
-        android:textColor="#8C000000"
-        android:textSize="16sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="436dp"
-        android:orientation="vertical"
-        android:layout_below="@id/textView6"
-        android:layout_marginTop="20dp">
-
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="194dp"
+            android:layout_marginRight="10dp"
+            android:text="View all"
+            android:textColor="#8C000000"
+            android:textSize="16sp" />
 
         <LinearLayout
+            android:id="@+id/cards"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:layout_marginBottom="8dp">
+            android:layout_height="476dp"
+            android:layout_below="@id/textView6"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
 
-            <RelativeLayout
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                android:layout_marginRight="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center">
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/rounded_cards">
+                        <!--             corner radius change krna h   -->
+
+                        <TextView
+                            android:id="@+id/meditationText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="113dp"
+                            android:layout_marginEnd="30dp"
+                            android:gravity="center"
+                            android:padding="0dp"
+                            android:text="Meditation"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="96dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/meditationText"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="22dp"
+                            android:gravity="center"
+                            android:text="Start now"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="-20dp"
+                        android:src="@drawable/gradcrc" />
+
+
+                </RelativeLayout>
 
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#ffffff">
-                    <!--             corner radius change krna h   -->
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1">
 
-                    <TextView
-                        android:id="@+id/meditationText"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/rounded_cards">
+                        <!--             corner radius change krna h   -->
+
+                        <TextView
+                            android:id="@+id/yogaText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="113dp"
+                            android:layout_marginEnd="35dp"
+                            android:gravity="center"
+                            android:padding="0dp"
+                            android:text="Yoga"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="96dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/yogaText"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="22dp"
+                            android:gravity="center"
+                            android:text="Start now"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:layout_alignParentEnd="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginTop="113dp"
-                        android:layout_marginEnd="30dp"
-                        android:gravity="center"
-                        android:padding="0dp"
-                        android:text="Meditation"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="96dp"
-                        android:layout_height="24dp"
-                        android:layout_below="@id/meditationText"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginEnd="35dp"
-                        android:layout_marginBottom="22dp"
-                        android:gravity="center"
-                        android:text="Start now"
-                        android:textSize="14sp" />
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/ic_baseline_add_circle_24" />
 
                 </RelativeLayout>
 
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="-10dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_baseline_add_circle_24" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
 
 
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/rounded_cards">
+                        <!--             corner radius change krna h   -->
 
-            </RelativeLayout>
+                        <TextView
+                            android:id="@+id/gamesText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="113dp"
+                            android:layout_marginEnd="35dp"
+                            android:gravity="center"
+                            android:padding="0dp"
+                            android:text="Games"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="96dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/gamesText"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="22dp"
+                            android:gravity="center"
+                            android:text="Start now"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/ic_baseline_add_circle_24" />
 
 
-            <RelativeLayout
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/rounded_cards">
+                        <!--             corner radius change krna h   -->
+
+                        <TextView
+                            android:id="@+id/breathText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="113dp"
+                            android:layout_marginEnd="35dp"
+                            android:gravity="center"
+                            android:padding="0dp"
+                            android:text="Breathe"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="96dp"
+                            android:layout_height="24dp"
+                            android:layout_below="@id/breathText"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="22dp"
+                            android:gravity="center"
+                            android:text="Start now"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/ic_baseline_add_circle_24" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/complaint"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_below="@id/cards"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity="center">
+            android:background="@drawable/blue_rounded_corners">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Complain"
+                android:textSize="24sp" />
 
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#ffffff">
-                    <!--             corner radius change krna h   -->
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/retake"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/complaint"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/blue_rounded_corners">
 
-                    <TextView
-                        android:id="@+id/yogaText"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="113dp"
-                        android:layout_marginEnd="35dp"
-                        android:gravity="center"
-                        android:padding="0dp"
-                        android:text="Yoga"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="96dp"
-                        android:layout_height="24dp"
-                        android:layout_below="@id/yogaText"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginEnd="35dp"
-                        android:layout_marginBottom="22dp"
-                        android:gravity="center"
-                        android:text="Start now"
-                        android:textSize="14sp" />
-
-                </RelativeLayout>
-
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="-10dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_baseline_add_circle_24" />
+            <TextView
+                android:id="@+id/deptext"
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Retake test"
+                android:gravity="center"
+                android:textSize="24sp" />
 
         </RelativeLayout>
 
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:layout_marginTop="8dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center">
-
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#ffffff">
-                    <!--             corner radius change krna h   -->
-
-                    <TextView
-                        android:id="@+id/gamesText"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="113dp"
-                        android:layout_marginEnd="35dp"
-                        android:gravity="center"
-                        android:padding="0dp"
-                        android:text="Games"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="96dp"
-                        android:layout_height="24dp"
-                        android:layout_below="@id/gamesText"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginEnd="35dp"
-                        android:layout_marginBottom="22dp"
-                        android:gravity="center"
-                        android:text="Start now"
-                        android:textSize="14sp" />
-
-                </RelativeLayout>
-
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="-10dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_baseline_add_circle_24" />
-
-
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_gravity="center">
-
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="15dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#ffffff">
-                    <!--             corner radius change krna h   -->
-
-                    <TextView
-                        android:id="@+id/breathText"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="113dp"
-                        android:layout_marginEnd="35dp"
-                        android:gravity="center"
-                        android:padding="0dp"
-                        android:text="Breathe"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="96dp"
-                        android:layout_height="24dp"
-                        android:layout_below="@id/breathText"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="35dp"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginEnd="35dp"
-                        android:layout_marginBottom="22dp"
-                        android:gravity="center"
-                        android:text="Start now"
-                        android:textSize="14sp" />
-
-                </RelativeLayout>
-
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginTop="-10dp"
-                    android:src="@drawable/ic_baseline_add_circle_24" />
-
-            </RelativeLayout>
-
-
-        </LinearLayout>
-    </LinearLayout>
-
-
-
-
-</RelativeLayout>
+    </RelativeLayout>
 </ScrollView>
 </FrameLayout>

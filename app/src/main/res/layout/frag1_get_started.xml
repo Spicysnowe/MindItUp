@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag1_GetStarted">
+    tools:context=".Frag1_GetStarted"
+    android:background="@drawable/bgs">
 
     <LinearLayout
         android:layout_width="match_parent"

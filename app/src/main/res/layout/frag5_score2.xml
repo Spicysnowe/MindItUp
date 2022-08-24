@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag5_score2">
+    tools:context=".Frag5_score2"
+    android:background="@drawable/bgs">
 
     <RelativeLayout
         android:layout_width="match_parent"
