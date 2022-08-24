@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.Toast;
 
@@ -26,7 +27,7 @@ public class Frag6_home extends Fragment {
         // Required empty public constructor
     }
 
-    private ImageButton b1, b2, b3, b4, b5;
+    private ImageView b1, b2, b3, b4, b5;
     private int mCurrentMood = 1;
     private int mCurrentMoodIntensity = 1;
 

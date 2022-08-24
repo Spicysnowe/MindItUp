@@ -11,7 +11,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#89acb5">
+        android:background="#ffffff">
 
 
 
@@ -53,47 +53,111 @@
                     android:layout_marginTop="124dp"
                     android:orientation="horizontal">
 
-                    <ImageButton
-                        android:id="@+id/veryhappy"
+                    <LinearLayout
                         android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_baseline_anchor_24" />
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:background="@drawable/white_emoji_rnd"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
 
-                    <ImageButton
-                        android:id="@+id/happy"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_baseline_anchor_24" />
 
-                    <ImageButton
-                        android:id="@+id/normal"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_baseline_anchor_24" />
+                        <ImageView
+                            android:id="@+id/veryhappy"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/happy" />
 
-                    <ImageButton
-                        android:id="@+id/sad"
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_baseline_anchor_24" />
+                    </LinearLayout>
 
-                    <ImageButton
-                        android:id="@+id/verysad"
+
+                    <LinearLayout
                         android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_baseline_anchor_24" />
-                    <!--image + backgroubd of btn + uske baaad unke size-->
-                    <!--                    otherwise u can use weight here todo-->
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:background="@drawable/white_emoji_rnd"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/happy"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/smile" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:background="@drawable/white_emoji_rnd"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/normal"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/plain" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:background="@drawable/white_emoji_rnd"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/sad"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/sad" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:background="@drawable/white_emoji_rnd"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/verysad"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/cry" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -116,18 +180,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="194dp"
+                android:layout_marginRight="10dp"
                 android:text="View all"
-                android:textColor="#8C000000"
+                android:textColor="#D94A98"
                 android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="436dp"
+                android:layout_height="476dp"
                 android:orientation="vertical"
                 android:layout_below="@id/textView6"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                android:id="@+id/cards">
 
 
                 <LinearLayout
@@ -153,8 +218,9 @@
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginEnd="15dp"
-                            android:layout_marginBottom="0dp"
-                            android:background="#ffffff">
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/rounded_cards"
+                            android:elevation="10dp">
                             <!--             corner radius change krna h   -->
 
                             <TextView
@@ -192,13 +258,14 @@
                         </RelativeLayout>
 
                         <ImageView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginTop="-10dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
-                            android:src="@drawable/ic_baseline_add_circle_24" />
+                            android:layout_marginTop="0dp"
+                            android:elevation="10dp"
+                            android:src="@drawable/medication" />
 
 
 
@@ -221,8 +288,9 @@
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginEnd="15dp"
-                            android:layout_marginBottom="0dp"
-                            android:background="#ffffff">
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/rounded_cards"
+                            android:elevation="10dp">
                             <!--             corner radius change krna h   -->
 
                             <TextView
@@ -260,13 +328,14 @@
                         </RelativeLayout>
 
                         <ImageView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginTop="-10dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
-                            android:src="@drawable/ic_baseline_add_circle_24" />
+                            android:layout_marginTop="0dp"
+                            android:elevation="10dp"
+                            android:src="@drawable/yoga" />
 
                     </RelativeLayout>
 
@@ -295,8 +364,9 @@
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginEnd="15dp"
-                            android:layout_marginBottom="0dp"
-                            android:background="#ffffff">
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/rounded_cards"
+                            android:elevation="10dp">
                             <!--             corner radius change krna h   -->
 
                             <TextView
@@ -334,13 +404,14 @@
                         </RelativeLayout>
 
                         <ImageView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:layout_alignParentTop="true"
                             android:layout_marginTop="-10dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentEnd="true"
-                            android:src="@drawable/ic_baseline_add_circle_24" />
+                            android:src="@drawable/games"
+                            android:elevation="10dp"/>
 
 
 
@@ -363,8 +434,9 @@
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="25dp"
                             android:layout_marginEnd="15dp"
-                            android:layout_marginBottom="0dp"
-                            android:background="#ffffff">
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/rounded_cards"
+                            android:elevation="10dp">
                             <!--             corner radius change krna h   -->
 
                             <TextView
@@ -402,13 +474,14 @@
                         </RelativeLayout>
 
                         <ImageView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="-10dp"
-                            android:src="@drawable/ic_baseline_add_circle_24" />
+                            android:src="@drawable/breathe"
+                            android:elevation="10dp"/>
 
                     </RelativeLayout>
 
@@ -417,6 +490,65 @@
             </LinearLayout>
 
 
+
+
+            <RelativeLayout
+                        android:id="@+id/complaint"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@id/cards"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/blue_rounded_corners"
+                        android:elevation="10dp">
+
+                        <TextView
+                            android:layout_width="160dp"
+                            android:layout_height="82dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="Complain"
+                            android:textSize="24sp" />
+
+
+                    </RelativeLayout>
+            <RelativeLayout
+                        android:id="@+id/retake"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_below="@id/complaint"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/blue_rounded_corners"
+                        android:elevation="10dp">
+
+
+
+                        <TextView
+                            android:id="@+id/deptext"
+                            android:layout_width="160dp"
+                            android:layout_height="82dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:text="Retake test"
+                            android:textSize="24sp" />
+
+                    </RelativeLayout>
 
 
         </RelativeLayout>
