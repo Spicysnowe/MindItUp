@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag4_Test2"
-    android:background="@drawable/bgs">
+    tools:context=".Frag4_Test2">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,83 +21,112 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/ques_ans"
-                android:textSize="12sp"/>
+                android:textSize="12sp" />
 
-            <TextView
-                android:id="@+id/ques"
-                android:layout_width="match_parent"
-                android:layout_height="86dp"
-                android:layout_marginTop="10dp"
-                android:padding="10dp"
-                android:text="@string/ques"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ques"
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="@string/ques"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="18dp"
+                    android:src="@drawable/test2" />
+
+            </RelativeLayout>
 
             <Button
                 android:id="@+id/idOption1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/testbtn"
+                android:elevation="10dp"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
                 android:text="Option 1"
-                android:textColor="#2d2f30"
-                android:fontFamily="sans-serif-light"
                 android:textAllCaps="false"
+                android:textColor="#2d2f30"
                 android:textSize="15sp" />
 
             <Button
+                android:id="@+id/idOption2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/testbtn"
+                android:elevation="10dp"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
                 android:text="Option 2"
-                android:textSize="15sp"
                 android:textAllCaps="false"
                 android:textColor="#2d2f30"
-                android:fontFamily="sans-serif-light"
-                android:id="@+id/idOption2"                />
+                android:textSize="15sp" />
 
             <Button
+                android:id="@+id/idOption3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/testbtn"
+                android:elevation="10dp"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
                 android:text="Option 3"
-                android:textSize="15sp"
                 android:textAllCaps="false"
-                android:id="@+id/idOption3"
                 android:textColor="#2d2f30"
-                android:fontFamily="sans-serif-light"
-                />
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/idOption4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/testbtn"
+                android:elevation="10dp"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
                 android:text="Option 4"
                 android:textAllCaps="false"
-                android:textSize="15sp"
                 android:textColor="#2d2f30"
-                android:fontFamily="sans-serif-light" />
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/idOption5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/testbtn"
+                android:elevation="10dp"
+                android:fontFamily="sans-serif-light"
                 android:padding="10dp"
                 android:text="Option 5"
-                android:textColor="#2d2f30"
-                android:fontFamily="sans-serif-light"
                 android:textAllCaps="false"
+                android:textColor="#2d2f30"
                 android:textSize="15sp" />
 
 
-
-
         </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/test" />
+
 
     </RelativeLayout>
 

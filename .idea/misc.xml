@@ -3,24 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/arrow.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/background_black_grey.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/blue_rounded_corners.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/btn_rnd_corner_colored.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/ic_add.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/rounded_cards.xml" value="0.2526041666666667" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/testbtn.xml" value="0.2526041666666667" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/view_bg.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/drawable/white_emoji_rnd.xml" value="0.2526041666666667" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act1_splash.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act2_onboarding_register.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act3_assessment.xml" value="0.1" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act3_start_assessment.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act4_base_page.xml" value="0.23645833333333333" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/act8act_dep_info.xml" value="0.264" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_act8_depinfor.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_main2.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_notepad_entry.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/activity_start_assessment.xml" value="0.22239583333333332" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag10_diary_writting.xml" value="0.23645833333333333" />
-        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag1_get_started.xml" value="0.2" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag1_get_started.xml" value="0.1" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag1_start_assessment.xml" value="0.1" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag2__assessment.xml" value="0.1" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag2_assessment.xml" value="0.23645833333333333" />
@@ -29,7 +34,7 @@
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag4_score2.xml" value="0.22239583333333332" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag4_test2.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag5_score2.xml" value="0.23645833333333333" />
-        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag6_home.xml" value="0.1" />
+        <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag6_home.xml" value="0.264" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag7_community.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag8_profile.xml" value="0.23645833333333333" />
         <entry key="..\:/SIH/MindItUp/app/src/main/res/layout/frag9_mood_tracker.xml" value="0.23645833333333333" />

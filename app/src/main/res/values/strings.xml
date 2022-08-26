@@ -4,13 +4,16 @@
     <!--    Assessment-->
     <string name="startAssessment">Start Assessment</string>
     <string name="meetTherapist">Meet Therapist</string>
-    <string name="skip">Skip</string>
+    <string name="skip">skip</string>
     <!-- test   -->
     <string name="ques_ans">questions answered</string>
     <string name="ques">Questions</string>
     <!--    result page-->
     <string name="result">Result</string>
     <string name="tohome">Home</string>
+
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

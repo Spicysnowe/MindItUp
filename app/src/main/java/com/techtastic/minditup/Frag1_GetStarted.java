@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,7 +25,7 @@ public class Frag1_GetStarted extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.frag1_get_started, container, false);
-        Button startAssessment= (Button) view.findViewById(R.id.startAssessment);
+        ImageButton startAssessment= (ImageButton)  view.findViewById(R.id.startAssessment);
 
         startAssessment.setOnClickListener(new View.OnClickListener() {
             @Override

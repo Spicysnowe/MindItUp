@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag3_score"
-    android:background="@drawable/bgs">
+    tools:context=".Frag3_score">
 
 
     <RelativeLayout
@@ -17,27 +16,64 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
+
+            <TextView
+                android:id="@+id/resulttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="@string/result"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/appicon"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"/>
+
             <TextView
                 android:id="@+id/result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
-                android:layout_marginLeft="135dp"
-                android:layout_marginBottom="35sp"
                 android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
                 android:text="@string/result"
-                android:textColor="#1f78b0"
+                android:textColor="#000000"
+                android:textStyle="bold"
                 android:fontFamily="sans-serif-medium"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*For the further details consult our mental health professionals."
+                android:lineSpacingMultiplier="1.1"
+                android:textSize="20sp"
+                android:textColor="#858080"
+                android:padding="10dp"/>
 
             <Button
                 android:id="@+id/tohome1"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/white_emoji_rnd"
+                android:elevation="10dp"
                 android:text="@string/tohome" />
 
 
         </LinearLayout>
+
+
 
     </RelativeLayout>
 
