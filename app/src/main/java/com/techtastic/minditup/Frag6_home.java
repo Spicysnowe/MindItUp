@@ -3,6 +3,7 @@ package com.techtastic.minditup;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.Toast;
 
@@ -28,6 +30,7 @@ public class Frag6_home extends Fragment {
     }
 
     private ImageView b1, b2, b3, b4, b5;
+//    private RelativeLayout r1;
     private int mCurrentMood = 1;
     private int mCurrentMoodIntensity = 1;
 
@@ -41,6 +44,9 @@ public class Frag6_home extends Fragment {
         b3 = view.findViewById(R.id.normal);
         b4 = view.findViewById(R.id.sad);
         b5 = view.findViewById(R.id.verysad);
+//        r1 = view.findViewById((R.id.deptext));
+
+
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +57,16 @@ public class Frag6_home extends Fragment {
             }
         });
 
+
+//        r1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Intent i = new Intent(getActivity(),Act4_BasePage.class);
+//                startActivity(i);
+//
+//            }
+//        });
 
 
 

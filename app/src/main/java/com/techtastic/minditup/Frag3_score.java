@@ -65,12 +65,12 @@ public class Frag3_score extends Fragment {
 
 //        scenario 1
         if(dep==ptsd && ptsd==adhd && adhd==anx && anx==0){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep +" You have no problem");
+            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep +" You are alright. stay happy" );
         }
 
 //        scenario 2
         else if(dep<=2 && ptsd<=2 && adhd<=2 && anx<=2 ){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep +" You have thodi si problem");
+            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep +" Take a deep breathe and calm down. Mild Stress detected ");
         }
 
 //        scenario 3
@@ -148,7 +148,7 @@ public class Frag3_score extends Fragment {
 
 //        3 equality
         else if(ptsd==adhd && adhd==dep){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "Call ptsd adhd dep set");
+            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "You have been diagnosed with stress ");
         }
         else if(ptsd==anx && anx==adhd){
             result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "Call anx ptsd adhd set");
@@ -163,7 +163,7 @@ public class Frag3_score extends Fragment {
 
 //        2 equality
         else if(ptsd==adhd){
-            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "Call ptsd adhd set");
+            result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "You have been diagnosed with ADHD and mild cases of severe stress ");
         }
         else if(ptsd==dep){
             result.setText("ptsd: "+ ptsd +" adhd: "+ adhd +"anx: "+ anx + "dep: "+ dep + "Call ptsd dep set");

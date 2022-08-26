@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MindItUp">
         <activity
+            android:name=".Act8_Depinfor"
+            android:exported="false" />
+        <activity
+            android:name=".Act8_DepInfo"
+            android:exported="false" />
+        <activity
             android:name=".NotepadEntry"
             android:exported="false" />
         <activity

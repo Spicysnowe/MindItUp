@@ -255,6 +255,7 @@
                                 android:text="Start now"
                                 android:textSize="14sp" />
 
+
                         </RelativeLayout>
 
                         <ImageView
@@ -406,12 +407,12 @@
                         <ImageView
                             android:layout_width="120dp"
                             android:layout_height="120dp"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginTop="-10dp"
                             android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
-                            android:src="@drawable/games"
-                            android:elevation="10dp"/>
+                            android:layout_marginTop="0dp"
+                            android:elevation="10dp"
+                            android:src="@drawable/games" />
 
 
 
@@ -479,17 +480,15 @@
                             android:layout_alignParentStart="true"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
-                            android:layout_marginTop="-10dp"
-                            android:src="@drawable/breathe"
-                            android:elevation="10dp"/>
+                            android:layout_marginTop="0dp"
+                            android:elevation="10dp"
+                            android:src="@drawable/breathe" />
 
                     </RelativeLayout>
 
 
                 </LinearLayout>
             </LinearLayout>
-
-
 
 
             <RelativeLayout
@@ -519,36 +518,42 @@
 
 
                     </RelativeLayout>
+
             <RelativeLayout
-                        android:id="@+id/retake"
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_below="@id/complaint"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/blue_rounded_corners"
-                        android:elevation="10dp">
+                android:id="@+id/retake"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/complaint"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/blue_rounded_corners"
+                android:elevation="10dp">
+
+
+                <TextView
+                    android:id="@+id/deptext"
+                    android:layout_width="250dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="Know about Depression better"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
 
 
 
-                        <TextView
-                            android:id="@+id/deptext"
-                            android:layout_width="160dp"
-                            android:layout_height="82dp"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_alignParentBottom="true"
-                            android:layout_marginStart="7dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="9dp"
-                            android:layout_marginBottom="8dp"
-                            android:gravity="center"
-                            android:text="Retake test"
-                            android:textSize="24sp" />
 
-                    </RelativeLayout>
+
+
 
 
         </RelativeLayout>
